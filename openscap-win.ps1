@@ -1,4 +1,6 @@
 ﻿
+Set-ExecutionPolicy Unrestricted -force
+
 #Download the OpenScap 1.3.0 version
 $url = "https://github.com/OpenSCAP/openscap/releases/download/1.3.0/OpenSCAP-1.3.0-win32.msi"
 $output = "C:\\OpenSCAP-1.3.0-win32.msi"
