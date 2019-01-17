@@ -7,5 +7,5 @@ $webClient.DownloadFile($url,$output)
 #Install the OpenScap tool
 Start-Process $output -ArgumentList "/q" -Wait
 #Generate report
-$reportPath = "C:\\report.html"
-oscap xccdf eval --profile WS2012R2_Member_Server_Security_Compliance --report $reportPath --cpe "C:\Program Files (x86)\OpenSCAP 1.3.0\ws2012-xccdf\WS2012R2 Member Server Security Compliance-cpe-dictionary.xml" "C:\Program Files (x86)\OpenSCAP 1.3.0\ws2012-xccdf\WS2012R2 Member Server Security Compliance-xccdf.xml"
+#$reportPath = "C:\\report.html"
+#oscap xccdf eval --profile WS2012R2_Member_Server_Security_Compliance --report $reportPath --cpe "C:\Program Files (x86)\OpenSCAP 1.3.0\ws2012-xccdf\WS2012R2 Member Server Security Compliance-cpe-dictionary.xml" "C:\Program Files (x86)\OpenSCAP 1.3.0\ws2012-xccdf\WS2012R2 Member Server Security Compliance-xccdf.xml"
