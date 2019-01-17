@@ -1,3 +1,2 @@
 ﻿
-$filename = "file500.txt"
-New-Item -Path C:\\ -Name $filename  -ItemType file
+New-Item -Path C:\\ -Name hello.txt  -ItemType file
