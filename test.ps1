@@ -5,3 +5,4 @@ Function New-File(
 {
 New-Item -Path C:\\ -Name $FileName  -ItemType file
 }
+New-File -FileName helloworld.txt
